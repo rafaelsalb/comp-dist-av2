@@ -1,1 +1,1 @@
-<img src="./testes.png>
+![Print dos testes](https://github.com/rafaelsalb/comp-dist-av2/blob/843a020518a286e65b34461f18529de2f6f992eb/lista_docker/2/testes.png)
