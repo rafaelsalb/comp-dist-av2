@@ -12,6 +12,8 @@ services:
       - wordpress1_data:/var/www/html
     networks:
       - wp_network
+    depends_on:
+      - db
 
   wordpress2:
     image: wordpress:5.4.2-php7.2-apache
@@ -26,6 +28,8 @@ services:
       - wordpress2_data:/var/www/html
     networks:
       - wp_network
+    depends_on:
+      - db
 
   wordpress3:
     image: wordpress:5.4.2-php7.2-apache
@@ -40,6 +44,8 @@ services:
       - wordpress3_data:/var/www/html
     networks:
       - wp_network
+    depends_on:
+      - db
 
   db:
     image: mysql:5.7
